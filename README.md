@@ -157,7 +157,18 @@ This repository contains a comprehensive collection of R programming lab reports
 <summary><strong>Lab 9: One-Way ANOVA (Chick Weights)</strong></summary>
 
 ### 1. Data Description
-* **Dataset:** Custom vectors representing chick weights fed on different diets.
+* **Dataset:** Custom vectors representing chick weights fed on different diets.  
+
+Newly hatched chicks were randomly allocated Into six groups, and each group was given a different feed supplement. Their weights in grams after six weeks are given below along with feed types.
+   * horsebean: 179 160 136 227 217 168 108 124 143 140
+   * linseed: 309 229 181 141 260 203 148 169 213 257 244 271
+   * soybean: 243 230 248 327 329 250 193 271 316 267 199 171 158 248
+   * sunflower: 423 340 392 339 341 226 320 295 334 322 297 318
+   * meat-meal: 325 257 303 315 380 153 263 242 206 344 258
+   * casein: 368 390 379 260 404 318 352 359 216 222 283 332  
+
+Compare the effectiveness of various feed supplements on the growth rate of chickens using an appropriate statistical test at 5% level of significance. Check for the model assumptions. Carryout pairwise comparisions to tease out the source of significant difference. Draw your conclusions.
+
 * **Groups (Feeds):** Horsebean, Linseed, Soyabeen, Sunflower, Meatmeal, Casein.
 * **Objective:** Compare the effect of 6 different feed types on chick weight.
 
