@@ -197,3 +197,35 @@ Since $p = 5.94 \times 10^{-10} < 0.05$, we **reject the Null Hypothesis ($H_0$)
 * **Boxplot Analysis:** The visual data suggests that **Casein** results in the highest median weight, while **Horsebean** results in the lowest. The other feeds cluster in the middle.
 
 </details>
+
+<details>
+<summary><strong>Lab 10: One-Way ANOVA (Batch Scores)</strong></summary>
+
+### 1. Data Description
+* **Dataset:** Exam scores from three different batches.
+    * **Batch A:** `c(24, 40, 32)`
+    * **Batch B:** `c(15, 29, 42, 41, 33)`
+    * **Batch C:** `c(11, 22, 39, 25)`
+* **Objective:** Determine if the mean scores differ significantly between the three batches.
+
+### 2. Methodology
+* **Test:** One-Way Analysis of Variance (ANOVA).
+* **Hypothesis:**
+    * $H_0$: $\mu_A = \mu_B = \mu_C$ (All batches have equal performance).
+    * $H_1$: At least one batch differs.
+
+### 3. Results
+* **F-statistic:** 0.716
+* **Degrees of Freedom:** 2 (between groups), 9 (residuals)
+* **P-value:** 0.515
+
+![Lab 10 ANOVA Output](assets/lab10-output.png)
+
+### 4. Decision
+Since $p = 0.515 > 0.05$, we **fail to reject the Null Hypothesis ($H_0$)**.
+
+### 5. Interpretation
+* There is **no statistically significant difference** in the average scores between Batch A, Batch B, and Batch C.
+* The observed differences in means are likely due to random chance rather than any fundamental difference in the batches.
+
+</details>
