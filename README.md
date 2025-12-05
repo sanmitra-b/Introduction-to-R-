@@ -22,8 +22,7 @@ This repository contains a comprehensive collection of R programming lab reports
     * *Sampling Error:* $Z \times \frac{\sigma}{\sqrt{n}}$
     * *Standard Error:* $\frac{s}{\sqrt{n}}$
 
-### 3. Results (Output)
-![Lab 1 R Console Output](assets/lab1-output.png)
+### 3. Results
 
 > **Interpretation:**
 > * The Sampling Error remained constant (0.724) as both samples had $n=7$.
@@ -50,7 +49,6 @@ This repository contains a comprehensive collection of R programming lab reports
 | **n = 15** | 113.67 | 56.79 |
 | **n = 18** | 103.77 | 54.45 |
 
-![CIA Component Output](assets/cia-output.png)
 
 > **Conclusion:**
 > As sample size increases, both Sampling Error and Standard Error **decrease**. Sample 3 ($n=18$) is the most statistically stable.
