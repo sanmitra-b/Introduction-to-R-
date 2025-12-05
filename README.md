@@ -154,7 +154,7 @@ This repository contains a comprehensive collection of R programming lab reports
 </details>
 
 <details>
-<summary><strong>Lab 9: One-Way ANOVA (Chick Weights)</strong></summary>
+<summary><strong>Lab 9a: One-Way ANOVA (Chick Weights)</strong></summary>
 
 ### 1. Data Description
 * **Dataset:** Custom vectors representing chick weights fed on different diets.  
@@ -199,7 +199,7 @@ Since $p = 5.94 \times 10^{-10} < 0.05$, we **reject the Null Hypothesis ($H_0$)
 </details>
 
 <details>
-<summary><strong>Lab 10: One-Way ANOVA (Batch Scores)</strong></summary>
+<summary><strong>Lab 9b: One-Way ANOVA (Batch Scores)</strong></summary>
 
 ### 1. Data Description
 * **Dataset:** Exam scores from three different batches.
