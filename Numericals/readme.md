@@ -254,9 +254,3 @@ Coaching leads to a statistically significant improvement.
 </details>
 
 ---
-
-## 🛠 Tools Used
-- **R Programming**
-- Base R statistical functions (`t.test`, `pnorm`, `qnorm`, `qchisq`)
-
----
